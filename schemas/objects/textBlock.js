@@ -22,7 +22,6 @@ export default {
       type: 'string',
       description: 'For anchor links (e.g., "Self hypnosis")',
     },
-
     {
       title: 'Heading',
       name: 'heading',
@@ -33,7 +32,21 @@ export default {
       name: 'subHeading',
       type: 'simple',
     },
-
+    {
+      title: 'Sub Heading Color', // NEW FIELD
+      name: 'subHeadingColor',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Default', value: 'default'},
+          {title: 'Blue', value: 'blue'},
+          {title: 'Red', value: 'red'},
+          {title: 'Orange', value: 'orange'},
+        ],
+        layout: 'dropdown',
+      },
+      description: 'Choose a color for the sub heading',
+    },
     {
       title: 'Paragraph',
       name: 'paragraph',
