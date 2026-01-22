@@ -12,6 +12,7 @@ import menu from './documents/menu'
 
 import imageBlock from './objects/imageBlock'
 import textBlock from './objects/textBlock'
+import imageTextBlock from './objects/imageTextBlock'
 import singleImage from './objects/singleImage'
 import menuItem from './objects/menuItem'
 import callToActionButton from './objects/callToActionButton'
@@ -25,6 +26,7 @@ export const schemas = [
   home,
   menu,
   textBlock,
+  imageTextBlock,
   singleImage,
   imageBlock,
   menuItem,

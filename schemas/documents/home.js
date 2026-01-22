@@ -4,10 +4,15 @@ export default {
   title: 'Home',
   fields: [
     {
+      title: 'Hero Image',
+      name: 'heroImage',
+      type: 'singleImage',
+    },
+    {
       title: 'Blocks',
       name: 'blocks',
       type: 'array',
-      of: [{type: 'singleImage'}, {type: 'textBlock'}],
+      of: [{type: 'singleImage'}, {type: 'textBlock'}, {type: 'imageTextBlock'}],
     },
   ],
   preview: {

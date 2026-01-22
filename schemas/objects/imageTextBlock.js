@@ -1,8 +1,14 @@
 export default {
-  title: 'Text Block',
-  name: 'textBlock',
   type: 'object',
+  name: 'imageTextBlock',
+  title: 'Image & Text',
   fields: [
+    {
+      title: 'Image ',
+      name: 'image',
+      type: 'imageBlock',
+      validation: (Rule) => Rule.required(),
+    },
     {
       title: 'Menu Category',
       name: 'menuCategory',
