@@ -15,6 +15,8 @@ import imageBlock from './objects/imageBlock'
 import textBlock from './objects/textBlock'
 import imageTextBlock from './objects/imageTextBlock'
 import singleImage from './objects/singleImage'
+import marquee from './objects/marquee'
+import marqueeLogo from './objects/marqueeLogo'
 import menuItem from './objects/menuItem'
 import footerLinks from './objects/footerLinks'
 import callToActionButton from './objects/callToActionButton'
@@ -31,6 +33,8 @@ export const schemas = [
   textBlock,
   imageTextBlock,
   singleImage,
+  marquee,
+  marqueeLogo,
   imageBlock,
   menuItem,
   footerLinks,

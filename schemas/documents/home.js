@@ -12,7 +12,7 @@ export default {
       title: 'Blocks',
       name: 'blocks',
       type: 'array',
-      of: [{type: 'singleImage'}, {type: 'textBlock'}, {type: 'imageTextBlock'}],
+      of: [{type: 'singleImage'}, {type: 'textBlock'}, {type: 'imageTextBlock'}, {type: 'marquee'}],
     },
   ],
   preview: {
