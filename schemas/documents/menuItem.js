@@ -1,15 +1,15 @@
-import documentTypes from './documentTypes'
+import documentTypes from '../objects/documentTypes'
 
 export default {
   title: 'Menu Item',
   name: 'menuItem',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'subject',
       title: 'Subject',
       type: 'string',
-      description: 'Service, About, Contact',
+      description: 'Title of a catagory',
       validation: (Rule) => Rule.required(),
     },
     {

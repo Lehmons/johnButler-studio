@@ -9,15 +9,19 @@ export default {
       title: 'Menu',
       of: [
         {
-          type: 'menuItem',
+          type: 'reference',
+          to: [{type: 'menuItem'}],
         },
       ],
     },
   ],
   preview: {
-    prepare({}) {
+    select: {
+      title: 'title',
+    },
+    prepare({title}) {
       return {
-        title: 'Menu',
+        title: title ? title : 'Menu',
       }
     },
   },

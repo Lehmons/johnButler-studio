@@ -7,6 +7,7 @@ import normal from './blocks/normal'
 //Documents
 import home from './documents/home'
 import menu from './documents/menu'
+import menuItem from './documents/menuItem'
 import footer from './documents/footer'
 
 //Objects
@@ -17,7 +18,6 @@ import imageTextBlock from './objects/imageTextBlock'
 import singleImage from './objects/singleImage'
 import marquee from './objects/marquee'
 import marqueeLogo from './objects/marqueeLogo'
-import menuItem from './objects/menuItem'
 import footerLinks from './objects/footerLinks'
 import callToActionButton from './objects/callToActionButton'
 

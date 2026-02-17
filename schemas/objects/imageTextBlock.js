@@ -12,15 +12,14 @@ export default {
     {
       title: 'Menu Category',
       name: 'menuCategory',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'Service', value: 'service'},
-          {title: 'About', value: 'about'},
-          {title: 'Contact', value: 'contact'},
-        ],
-      },
-      description: 'Which menu section should this appear under?',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'menuItem'}],
+        },
+      ],
+      description: 'Which menu section(s) should this appear under?',
     },
     {
       title: 'Section ID',
